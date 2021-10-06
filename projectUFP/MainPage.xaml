@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="projectUFP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:projectUFP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,23,0,0" Text="Product:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="inputProduct" HorizontalAlignment="Left" Width="619" Height="35" Margin="140,12,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" PlaceholderText=""/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,73,0,0" Text="Description:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="inputDescription" HorizontalAlignment="Left" Width="619" Height="35" Margin="140,67,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" PlaceholderText=""/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,141,0,0" Text="Image:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.604,0.992"/>
+        <ComboBox Margin="140,131,0,0" Width="120" Height="58"/>
+        <Button Content="ORDER" Margin="140,206,0,0" RenderTransformOrigin="0.671,0.538" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
